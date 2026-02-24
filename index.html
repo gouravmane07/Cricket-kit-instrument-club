@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cricket Instrument Club</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+}
+
+body {
+background-color: #f4f4f4;
+}
+
+header {
+background: #0b6623;
+color: white;
+padding: 20px;
+text-align: center;
+}
+
+nav {
+background: #064d1a;
+padding: 10px;
+text-align: center;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+margin: 0 15px;
+font-weight: bold;
+}
+
+nav a:hover {
+color: yellow;
+}
+
+.hero {
+background: url('https://images.unsplash.com/photo-1593766827397-1c47d3f1b49f') no-repeat center center/cover;
+height: 400px;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.hero h1 {
+background: rgba(0,0,0,0.6);
+padding: 20px;
+border-radius: 10px;
+}
+
+.section {
+padding: 40px 20px;
+text-align: center;
+}
+
+.products {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+}
+
+.card {
+background: white;
+padding: 20px;
+width: 250px;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.card img {
+width: 100%;
+border-radius: 10px;
+}
+
+.card h3 {
+margin: 15px 0;
+}
+
+.btn {
+background: #0b6623;
+color: white;
+padding: 10px 15px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.btn:hover {
+background: #064d1a;
+}
+
+footer {
+background: #0b6623;
+color: white;
+text-align: center;
+padding: 15px;
+margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+.products {
+flex-direction: column;
+align-items: center;
+}
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Cricket Instrument Club</h1>
+<p>Your One-Stop Shop for Premium Cricket Gear</p>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#products">Products</a>
+<a href="#about">About Us</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" id="home">
+<h1>Welcome to the Ultimate Cricket Equipment Store</h1>
+</section>
+
+<section class="section" id="products">
+<h2>Our Products</h2>
+<div class="products">
+<div class="card">
+<img src="https://images.unsplash.com/photo-1605806616949-1e87b60f3c4e" alt="Cricket Bat">
+<h3>Premium Cricket Bat</h3>
+<p>High-quality English willow bat for professional performance.</p>
+<button class="btn">Buy Now</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1587614382346-4ec70e388b28" alt="Cricket Ball">
+<h3>Leather Cricket Ball</h3>
+<p>Durable and match-ready leather cricket ball.</p>
+<button class="btn">Buy Now</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1595433707802-6e4b8a3c7b6b" alt="Cricket Pads">
+<h3>Protective Pads</h3>
+<p>Lightweight and strong batting pads for safety.</p>
+<button class="btn">Buy Now</button>
+</div>
+</div>
+</section>
+
+<section class="section" id="about">
+<h2>About Our Club</h2>
+<p>Cricket Instrument Club has been providing top-quality cricket gear for players of all levels. We ensure premium products, affordable prices, and excellent customer service.</p>
+</section>
+
+<section class="section" id="contact">
+<h2>Contact Us</h2>
+<p>Email: info@cricketclub.com</p>
+<p>Phone: +91 98765 43210</p>
+</section>
+
+<footer>
+<p>© 2026 Cricket Instrument Club | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
